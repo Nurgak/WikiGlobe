@@ -1,0 +1,171 @@
+/***************************************************************************************
+ *
+ * Title:       Wiki Globe style file
+ * Date:        2014-05-28
+ * URL:         https://github.com/Nurgak/WikiGlobe
+ * Author:      Karl Kangur <karl.kangur@gmail.com>
+ * Licence:     LGPL <http://www.gnu.org/licenses/lgpl.html>
+ *
+ ***************************************************************************************/
+
+body
+{
+    background-color: #000;
+    font-family: helvetica;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+#title
+{
+    z-index: 2;
+    white-space: nowrap;
+    background: #fff;
+    padding: .5em;
+    position: absolute;
+}
+
+#title a
+{
+    color: #222;
+    font-size: 3em;
+}
+
+.handle
+{
+    white-space: nowrap;
+    font-family: helvetica;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    position: absolute;
+}
+
+#searchInput
+{
+    position: absolute;
+    left: 50px;
+    top: 60px;
+    width: 300px;
+    font-size: 3em;
+    padding: 8px
+    border: solid 1px #eee;
+}
+
+#searchButton
+{
+    position: absolute;
+    right: 50px;
+    top: 75px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.go
+{
+    cursor: pointer;
+    display: block;
+    padding: 8px;
+    margin: 0;
+}
+
+.icon
+{
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    padding: 8px;
+    margin: 0;
+}
+
+.left
+{
+    left: 0px;
+}
+
+.right
+{
+    right: 0px;
+}
+
+.top
+{
+    top: 0px;
+}
+
+.bottom
+{
+    bottom: 0px;
+}
+
+#screen
+{
+    /* Prevent user from scrolling the page on a tablet with an unmovable overlayer */
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+img
+{
+    padding: 0;
+    margin: 0;
+}
+
+iframe
+{
+    border: none;
+}
+
+#popup
+{
+    display: none;
+    background: #fff;
+    position: absolute;
+    z-index: 100;
+    border: solid 10px #ccc;
+}
+
+#popup a
+{
+    color: #000;
+    text-decoration: underline;
+}
+
+#close
+{
+    cursor: pointer;
+    background: #ccc;
+    padding: 8px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+h1
+{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+p
+{
+    padding: 0 1em;
+}
