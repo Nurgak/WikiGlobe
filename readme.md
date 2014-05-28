@@ -2,7 +2,7 @@
 
 ![Screenshot of Wiki Globe](screenshot.png)
 
-[**Click here to see the demo**](link)
+[**Click here to see the demo**](http://nurgak.github.io/WikiGlobe/)
 
 Wiki Globe is a graphical design project. It uses the [Wikipedia API](http://en.wikipedia.org/w/api.php) to fetch a random article, extracts all the links on that page and forms a sphere with the current article title in the center and linked articles all around it.
 
